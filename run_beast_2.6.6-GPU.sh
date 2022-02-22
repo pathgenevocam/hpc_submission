@@ -38,3 +38,5 @@ module load jdk-8u131-b11-gcc-5.4.0-z7brlnq
 ##Run BEAST
 /home/USER/beast/bin/beast -beagle_GPU -seed $RANDOM ${file}
 
+#! /home/USER/beast/bin/beast -beagle_GPU -resume ${file}
+
